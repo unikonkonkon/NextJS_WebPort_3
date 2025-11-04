@@ -54,21 +54,21 @@ const ContactSection = () => {
     setIsSubmitting(false);
     
     // Show success message (you can implement toast notification here)
-    alert('Message sent to space! 🚀 I will get back to you soon.');
+    alert('Test message sent! 🚀');
   };
 
   const contactInfo = [
     {
       icon: Mail,
       label: 'Email',
-      value: 'bananammm0001@gmail.com',
-      link: 'mailto:bananammm0001@gmail.com'
+      value: 'test@example.com',
+      link: 'mailto:test@example.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '0901834036',
-      link: 'tel:0901834036'
+      value: '0000000000',
+      link: 'tel:0000000000'
     },
   ];
 
@@ -141,11 +141,10 @@ const ContactSection = () => {
             <TextAnimate
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-purple-400 via-blue-400 to-purple-400 bg-clip-text text-transparent mb-4 sm:mb-6"
             >
-              Launch a Conversation with Me
+              Test Contact Section
             </TextAnimate>
             <p className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-2xl lg:max-w-3xl mx-auto px-4">
-              I am always excited to work on innovative projects and collaborate with like-minded individuals. 
-              Whether you have a specific project in mind or just want to discuss ideas, I love to hear from you.
+              Test contact description text for testing purposes.
             </p>
           </div>
         </BlurFade>
@@ -159,7 +158,7 @@ const ContactSection = () => {
               <div className="bg-slate-900/90 backdrop-blur-lg rounded-2xl p-6 sm:p-8 border border-purple-500/20">
                 <div className="flex items-center gap-3 mb-6 lg:mb-8">
                   <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-purple-400" />
-                  <h3 className="text-xl sm:text-2xl font-bold text-white">Connect With Me</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold text-white">Test Connect</h3>
                 </div>
                 
                 <div className="space-y-4 sm:space-y-6">
@@ -191,7 +190,7 @@ const ContactSection = () => {
               {/* Social Links */}
               <BlurFade delay={0.5}>
                 <div className="bg-slate-900/90 backdrop-blur-lg rounded-2xl p-6 sm:p-8 border border-purple-500/20">
-                  <h4 className="text-lg sm:text-xl font-bold text-white mb-4 sm:mb-6">Follow My Journey</h4>
+                  <h4 className="text-lg sm:text-xl font-bold text-white mb-4 sm:mb-6">Test Follow</h4>
                   <div className="flex flex-wrap gap-3 sm:gap-4">
                     {socialLinks.map((social, index) => (
                       <a
@@ -216,7 +215,7 @@ const ContactSection = () => {
             <div className="bg-slate-900/90 backdrop-blur-lg rounded-2xl p-6 sm:p-8 border border-purple-500/20">
               <div className="flex items-center gap-3 mb-6 lg:mb-8">
                 <Send className="w-5 h-5 sm:w-6 sm:h-6 text-blue-400" />
-                <h3 className="text-xl sm:text-2xl font-bold text-white">Send Message to Space</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-white">Test Send Message</h3>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
@@ -232,7 +231,7 @@ const ContactSection = () => {
                     onChange={handleInputChange}
                     required
                     className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base bg-slate-800/80 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all"
-                    placeholder="Your name"
+                    placeholder="Test name"
                   />
                 </div>
 
@@ -248,7 +247,7 @@ const ContactSection = () => {
                     onChange={handleInputChange}
                     required
                     className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base bg-slate-800/80 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all"
-                    placeholder="your.email@example.com"
+                    placeholder="test@example.com"
                   />
                 </div>
 
@@ -264,7 +263,7 @@ const ContactSection = () => {
                     required
                     rows={5}
                     className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base bg-slate-800/80 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all resize-none"
-                    placeholder="Tell me about your project or idea..."
+                    placeholder="Test message text..."
                   />
                 </div>
 
@@ -280,7 +279,7 @@ const ContactSection = () => {
                     </div>
                   ) : (
                     <div className="flex items-center justify-center gap-2">
-                      <span className="text-sm sm:text-base">🚀 Send Message to Space</span>
+                      <span className="text-sm sm:text-base">🚀 Test Send Message</span>
                     </div>
                   )}
                 </button>
@@ -298,14 +297,14 @@ const ContactSection = () => {
                   <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
                 </div>
                 <h4 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                  FaradayBanana
+                  Test Portfolio
                 </h4>
               </div>
               <p className="text-sm sm:text-base text-slate-400 max-w-xs sm:max-w-md mx-auto px-4">
-                Creating digital experiences in the cosmic realm
+                Test footer description text
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm text-slate-500">
-                <p>© 2025 FaradayBanana. All rights reserved.</p>
+                <p>© 2025 Test Portfolio. All rights reserved.</p>
                 <div className="flex gap-4">
                   <button 
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

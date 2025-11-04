@@ -109,25 +109,19 @@ const ProjectSection = () => {
   // Personal projects data
   const personalProjects: PersonalProject[] = [
     {
-      title: "📰 Crypto Sentiment Analysis",
-      role: "Full Stack Developer",
-      description: "Analyze the sentiment of cryptocurrencies using AI Gemini API to make better investment decisions. updates with RSS feeds from major crypto news sources.",
-      image: "/project/CryptoSentiment1.png",
+      title: "📰 Test Project One",
+      role: "Test Developer",
+      description: "Test project description one for testing purposes.",
+      image: "https://picsum.photos/200/300",
       slideImages: [
-        "/project/CryptoSentiment1.png",
-        "/project/CryptoSentiment2.png",
-        "/project/CryptoSentiment3.png",
-        "/project/CryptoSentiment4.png",
-        "/project/CryptoSentiment5.png",
-        "/project/CryptoSentiment6.png",
-        "/project/CryptoSentiment7.png",
-        "/project/CryptoSentiment8.png",
-        "/project/CryptoSentiment9.png",
-        "/project/CryptoSentiment10.png",
-        "/project/CryptoSentiment11.png",
-        "/project/CryptoSentiment12.png",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
       ],
-      technologies: ["Next.js", "TypeScript", "Supabase", "Google Gemini API", "TailwindCSS", "NestJS", "Three.js"],
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       githubUrlFrontend: "https://github.com/unikonkon/FrontEnd_useNestJS_CryptoSentimentAnalysis",
       githubUrlBackend: "https://github.com/unikonkon/BackEnd_NestJS_CryptoSentimentAnalysis",
       demoUrl: "https://crypto-sentiment-analysis-ten.vercel.app/",
@@ -135,89 +129,87 @@ const ProjectSection = () => {
       colorScheme: "orangeLight" as const
     },
     {
-      title: "📰 Crypto News Analysis",
-      role: "Full Stack Developer",
-      description: "AI-powered crypto news aggregator with sentiment analysis and trending score using Google Gemini API. Real-time updates with RSS feeds from major crypto news sources.",
-      image: "/project/CryptoNews3.png",
+      title: "📰 Test Project Two",
+      role: "Test Developer",
+      description: "Test project description two for testing purposes.",
+      image: "https://picsum.photos/200/300",
       slideImages: [
-        "/project/CryptoNews1.png",
-        "/project/CryptoNews2.png",
-        "/project/CryptoNews3.png",
-        "/project/CryptoNews4.png",
-        "/project/CryptoNews5.png",
-        "/project/CryptoNews6.png",
-        "/project/CryptoNews7.png",
-        "/project/CryptoNews8.png"
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
       ],
-      technologies: ["Next.js", "TypeScript", "Supabase", "Google Gemini API", "TailwindCSS", "RSS Parser"],
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       githubUrl: "https://github.com/unikonkon/NextJS_Crypto_News_Aggregator",
       demoUrl: "https://crypto-news-aggregator-alpha.vercel.app/",
       featured: true,
       colorScheme: "orange" as const
     },
     {
-      title: "🎵 WebRecord Sound App",
-      role: "Full Stack Developer",
-      description: "Browser-based audio recording with IndexedDB storage, Firebase auth, and privacy-first approach.",
-      image: "/project/project WebRecord1.png",
+      title: "🎵 Test Project Three",
+      role: "Test Developer",
+      description: "Test project description three for testing purposes.",
+      image: "https://picsum.photos/200/300",
       slideImages: [
-        "/project/project WebRecord1.png",
-        "/project/project WebRecord2.png",
-        "/project/project WebRecord3.png",
-        "/project/project WebRecord4.png",
-        "/project/project WebRecord5.png",
-        "/project/project WebRecord6.png"
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/200/300",
       ],
-      technologies: ["React", "TypeScript", "TailwindCSS", "IndexedDB"],
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       githubUrl: "https://github.com/unikonkon/React_WebRecord",
       demoUrl: "https://voice-record-phi.vercel.app/",
       featured: true,
       colorScheme: "blue" as const
     },
     {
-      title: "📈 CryptoTracker",
-      role: "Front-End Developer",
-      description: "Modern cryptocurrency tracking with categorized views, search functionality, and 7-day price charts.",
-      image: "/project/project CryptoTracker.png",
-      technologies: ["Next.js", "TypeScript", "TailwindCSS", "Recharts"],
+      title: "📈 Test Project Four",
+      role: "Test Developer",
+      description: "Test project description four for testing purposes.",
+      image: "https://picsum.photos/200/300",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       githubUrl: "https://github.com/unikonkon/NextJS_CryptoTracker",
       demoUrl: "https://crypto-tracker-drab-eta.vercel.app/",
       colorScheme: "yellow" as const
     },
     {
-      title: "🎬 Netflix Clone",
-      role: "Front-End Developer",
-      description: "Responsive Netflix clone with modern UI/UX, movie browsing, and server-side rendering.",
-      image: "/project/project Netflix.png",
-      technologies: ["Next.js", "TypeScript", "TailwindCSS"],
+      title: "🎬 Test Project Five",
+      role: "Test Developer",
+      description: "Test project description five for testing purposes.",
+      image: "https://picsum.photos/200/300",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       githubUrl: "https://github.com/unikonkon/NextJS_Netflix_App",
       demoUrl: "https://next-js-netflix-app-5egp.vercel.app/",
       colorScheme: "red" as const
     },
     {
-      title: "🗣️ Text-to-Speech App",
-      role: "Front-End Developer",
-      description: "Web application for text-to-speech conversion with voice selection and multi-language support.",
-      image: "/project/project texttospeech.png",
-      technologies: ["Next.js", "TypeScript", "Web Speech API"],
+      title: "🗣️ Test Project Six",
+      role: "Test Developer",
+      description: "Test project description six for testing purposes.",
+      image: "https://picsum.photos/200/300",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       githubUrl: "https://github.com/unikonkon/NextJS_Text-to-Speech-App",
       demoUrl: "https://text-to-speech-app-kappa.vercel.app/",
       colorScheme: "green" as const
     },
     {
-      title: "🇹🇭 PyThaiTTS App",
-      role: "Full Stack Developer",
-      description: "Full-stack Thai text-to-speech with FastAPI backend and PyThaiTTS integration.",
-      image: "/project/project PyThaiTTS texttospeech.png",
-      technologies: ["Next.js", "FastAPI", "Python", "PyThaiTTS"],
+      title: "🇹🇭 Test Project Seven",
+      role: "Test Developer",
+      description: "Test project description seven for testing purposes.",
+      image: "https://picsum.photos/200/300",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       githubUrl: "https://github.com/unikonkon/NextJS_Text-to-Speech-for-PyThaiTTS",
       colorScheme: "purple" as const
     },
     {
-      title: "💼 Portfolio V1",
-      role: "Front-End Developer",
-      description: "Clean and minimalist portfolio website with responsive design principles.",
-      image: "/project/project webport1.png",
+      title: "💼 Test Project Eight",
+      role: "Test Developer",
+      description: "Test project description eight for testing purposes.",
+      image: "https://picsum.photos/200/300",
       technologies: ["Next.js", "TypeScript", "TailwindCSS", "Three.js"],
       githubUrl: "https://github.com/unikonkon/NextJs_WebProtfolio",
       demoUrl: "https://faradaybanana.vercel.app/",
@@ -228,62 +220,54 @@ const ProjectSection = () => {
   // Work projects data
   const workProjects: WorkProject[] = [
     {
-      title: "ACT Project",
-      role: "Full Stack Developer",
-      description: "Full-stack development with data fetching from multiple sources, risk assessment logic, and Excel exports.",
-      technologies: ["JavaScript", "TypeScript", "React", "Elasticsearch", "Express", "GitLab", "Jenkins", "Postman", "Ant Design"],
+      title: "Test Work Project One",
+      role: "Test Developer",
+      description: "Test work project description one.",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       features: [
-        "Update the API for fetching data from the web",
-        "Update the API for fetching data from the Kibana database",
-        "Update the front-end view to reflect data from MA and the new database data sent",
-        "Write Python logic for project risk assessment",
-        "Redesign the flow for fetching data from 3 web pages: EGP, DBD, GOV",
-        "Update the API for fetching data from the 3 web pages (EGP, DBD, GOV) based on the previous version",
-        "Set up Jenkins processes to run commands for fetching project and company data",
-        "Implement code paths for project and company data as required",
-        "Create an Excel export for the required project and company data"
+        "Test feature one",
+        "Test feature two",
+        "Test feature three"
       ],
       icon: "📊",
       colorScheme: "yellow" as const
     },
     {
-      title: "ACT Phase 2",
-      role: "Full Stack Developer",
-      description: "Enhanced project with advanced data fetching flows, database storage, and modern web interface.",
-      technologies: ["JavaScript", "TypeScript", "Next.js", "Nodejs", "PostgreSQL", "Express", "GitLab", "Jenkins", "Postman", "Puppeteer", "Ant Design"],
+      title: "Test Work Project Two",
+      role: "Test Developer",
+      description: "Test work project description two.",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       features: [
-        "Design the flow for fetching project and company data from 3 web pages: EGP, DBD, and GOV",
-        "Develop an API to fetch project data from the 3 web pages (EGP, DBD, GOV) and store it in the database",
-        "Set up a Jenkins process to run commands for fetching project and company data",
-        "Develop the web view for the front-end of Phase 2"
+        "Test feature one",
+        "Test feature two",
+        "Test feature three"
       ],
       icon: "🚀",
       colorScheme: "purple" as const,
       demoUrl: "https://actai.co/"
     },
     {
-      title: "Iapp Speech Flow",
-      role: "Full Stack Developer",
-      description: "Mobile-to-web migration with Electron desktop app deployment for cross-platform compatibility.",
-      technologies: ["JavaScript", "TypeScript", "Next.js", "PostgreSQL", "Express", "GitLab", "Jenkins", "Postman", "NextUI", "TailwindCSS", "Electron"],
+      title: "Test Work Project Three",
+      role: "Test Developer",
+      description: "Test work project description three.",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       features: [
-        "Plan the development of Iapp Speech Flow for Web and design the workflow",
-        "Convert the mobile code into a web format using Next.js",
-        "Design the code flow for Iapp Speech Flow on the Web",
-        "Build the application as an Electron app for macOS and Windows"
+        "Test feature one",
+        "Test feature two",
+        "Test feature three"
       ],
       icon: "💬",
       colorScheme: "green" as const
     },
     {
-      title: "NBTC - Drone Data Transmission",
-      role: "Backend Developer",
-      description: "Developed a Proxy API for transmitting drone data to mobile and web platforms, ensuring secure and compliant data transmission with NBTC regulations",
-      technologies: ["JavaScript", "TypeScript", "PostgreSQL", "Express", "GitLab", "Jenkins", "Postman"],
+      title: "Test Work Project Four",
+      role: "Test Developer",
+      description: "Test work project description four.",
+      technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
       features: [
-        "Developed an API for transmitting drone data to both mobile and web platforms, ensuring data is transmitted securely and in compliance with NBTC regulations",
-        "Provided real-time logging and error handling to track ensure the integrity of data during transmission",
-        "Presented the API functionality to the client, explaining how the API works and ensuring they understand how it complies with NBTC regulations"
+        "Test feature one",
+        "Test feature two",
+        "Test feature three"
       ],
       icon: "🚁",
       colorScheme: "blue" as const
@@ -471,10 +455,10 @@ const ProjectSection = () => {
         <BlurFade delay={0.1}>
           <div className="text-center mb-8">
             <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 via-blue-400 to-purple-400 bg-clip-text text-transparent mb-6">
-              Projects
+              Test Projects
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Explore my journey through personal experiments and professional achievements
+              Test projects description text
             </p>
           </div>
         </BlurFade>
@@ -490,7 +474,7 @@ const ProjectSection = () => {
                   : 'text-slate-400 hover:text-slate-200'
                   }`}
               >
-                Personal Projects
+                Test Personal Projects
               </button>
               <button
                 onClick={() => setActiveTab('work')}
@@ -499,7 +483,7 @@ const ProjectSection = () => {
                   : 'text-slate-400 hover:text-slate-200'
                   }`}
               >
-                Work Projects
+                Test Work Projects
               </button>
             </div>
           </div>
@@ -667,7 +651,7 @@ const ProjectSection = () => {
 
                     {/* Technologies */}
                     <div className="mb-6">
-                      <h4 className="text-slate-200 font-semibold mb-3">Technologies Used:</h4>
+                      <h4 className="text-slate-200 font-semibold mb-3">Test Technologies:</h4>
                       <div className="flex flex-wrap gap-2">
                         {project.technologies.map((tech) => (
                           <span
@@ -682,7 +666,7 @@ const ProjectSection = () => {
 
                     {/* Features */}
                     <div className="flex-1 mb-6">
-                      <h4 className="text-slate-200 font-semibold mb-3">Key Features & Responsibilities:</h4>
+                      <h4 className="text-slate-200 font-semibold mb-3">Test Features:</h4>
                       <ul className="space-y-2">
                         {project.features.map((feature, idx) => (
                           <li key={idx} className="text-slate-300 text-sm flex items-start gap-2">
@@ -703,7 +687,7 @@ const ProjectSection = () => {
                           className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${colors.gradient} text-white rounded-lg hover:opacity-90 transition-opacity duration-200`}
                         >
                           <ExternalLink size={18} />
-                          View Project
+                          Test View Project
                         </a>
                       </div>
                     )}

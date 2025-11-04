@@ -54,7 +54,7 @@ const HeroSection = () => {
                             by="word"
                             delay={0.3}
                         >
-                            Hi, I am
+                            Test Text One
                         </TextAnimate>
 
                         <Highlighter action="underline" color="#60a5fa" strokeWidth={3} isView>
@@ -64,7 +64,7 @@ const HeroSection = () => {
                                 by="word"
                                 delay={0.5}
                             >
-                                Suthep Jantawee
+                                Test Name
                             </TextAnimate>
                         </Highlighter>
                     </div>
@@ -77,7 +77,7 @@ const HeroSection = () => {
                             by="word"
                             delay={0.8}
                         >
-                            Full Stack Developer
+                            Test Developer
                         </TextAnimate>
                     </Highlighter>
 
@@ -87,7 +87,7 @@ const HeroSection = () => {
                         by="word"
                         delay={1}
                     >
-                        I&apos;m looking for a similar role as a Front-End Developer, Back-End Developer, or Full Stack Developer.
+                        Test description text one for testing purposes.
                     </TextAnimate>
 
                     <TextAnimate
@@ -96,7 +96,7 @@ const HeroSection = () => {
                         by="word"
                         delay={1.2}
                     >
-                        I have 3+ years of experience in web development. I am passionate about building intuitive interfaces, exploring modern frameworks, and leveraging AI tools to enhance developer workflows.
+                        Test description text two for testing purposes. This is a longer test description to test the layout.
                     </TextAnimate>
 
                     <div className="flex md:hidden my-4 w-full justify-start gap-4">

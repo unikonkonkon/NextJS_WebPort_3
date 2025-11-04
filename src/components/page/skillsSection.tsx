@@ -100,7 +100,7 @@ const SkillsSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto items-center relative z-10 mb-20 mt-10">
                     <div className="mb-[10px] mt-[20px] w-full flex justify-center items-center md:hidden text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-purple-400 via-blue-400 to-purple-400 bg-clip-text text-transparent font-bold">
-                        Skills
+                        Test Skills
                     </div>
                     {/* Left column */}
                     <div className="flex flex-col gap-8">
@@ -119,10 +119,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-purple-200 font-bold mb-3 group-hover:text-purple-100 transition-colors duration-300">
-                                        Languages
+                                        Test Languages
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        HTML, CSS, JavaScript, TypeScript, Dart, SQL(Database)
+                                        Test Language One, Test Language Two, Test Language Three
                                     </p>
                                 </div>
                                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-purple-600/5 to-blue-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -144,10 +144,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-blue-200 font-bold mb-3 group-hover:text-blue-100 transition-colors duration-300">
-                                        Frameworks & Libraries
+                                        Test Frameworks
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        ReactJS, NextJS, Express.js, NestJS, Flutter, Electron, Tailwindcss, Ant Design, DaisyUI, Magicui, HeroUI, Three.js
+                                        Test Framework One, Test Framework Two, Test Framework Three
                                     </p>
                                 </div>
                             </div>
@@ -168,10 +168,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-indigo-200 font-bold mb-3 group-hover:text-indigo-100 transition-colors duration-300">
-                                        Testing & API Tools
+                                        Test Tools
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        Postman, Jest, SonarQube
+                                        Test Tool One, Test Tool Two, Test Tool Three
                                     </p>
                                 </div>
                             </div>
@@ -192,10 +192,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-violet-200 font-bold mb-3 group-hover:text-violet-100 transition-colors duration-300">
-                                        AI Tools
+                                        Test AI Tools
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        Cursor, Claude Code, Blackbox.AI, Gemini, Google Gemini API, Chat GPT, v0.dev, lovable.dev
+                                        Test AI Tool One, Test AI Tool Two, Test AI Tool Three
                                     </p>
                                 </div>
                             </div>
@@ -206,7 +206,7 @@ const SkillsSection = () => {
                     <div className="flex flex-col items-center justify-center">
                         <BlurFade delay={0}>
                             <div className="mb-[150px] hidden md:flex text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-purple-400 via-blue-400 to-purple-400 bg-clip-text text-transparent font-bold">
-                                Skills
+                                Test Skills
                             </div>
                         </BlurFade>
                         {/* IconCloud as background */}
@@ -238,10 +238,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-cyan-200 font-bold mb-3 group-hover:text-cyan-100 transition-colors duration-300">
-                                        DevOps & CI/CD Tools
+                                        Test DevOps
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        Git Version Control, Jenkins, Vercel, Docker
+                                        Test DevOps One, Test DevOps Two, Test DevOps Three
                                     </p>
                                 </div>
                             </div>
@@ -262,10 +262,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-emerald-200 font-bold mb-3 group-hover:text-emerald-100 transition-colors duration-300">
-                                        Databases & Data Tools
+                                        Test Databases
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        PostgreSQL, Kibana, Firebase, Prisma, Supabase
+                                        Test Database One, Test Database Two, Test Database Three
                                     </p>
                                 </div>
                             </div>
@@ -286,10 +286,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-rose-200 font-bold mb-3 group-hover:text-rose-100 transition-colors duration-300">
-                                        Design & Tools
+                                        Test Design Tools
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        Figma, Draw.io (Diagrams.net), Slack, Lark, Monday, Discord
+                                        Test Design Tool One, Test Design Tool Two, Test Design Tool Three
                                     </p>
                                 </div>
                             </div>
@@ -310,10 +310,10 @@ const SkillsSection = () => {
                             >
                                 <div className="relative z-10">
                                     <p className="text-xl md:text-2xl lg:text-3xl text-amber-200 font-bold mb-3 group-hover:text-amber-100 transition-colors duration-300">
-                                        Soft Skills
+                                        Test Soft Skills
                                     </p>
                                     <p className="text-sm md:text-md lg:text-lg text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                                        Creativity, Critical thinking, Responsibility, Problem solving, Communication, Teamwork
+                                        Test Skill One, Test Skill Two, Test Skill Three, Test Skill Four
                                     </p>
                                 </div>
                             </div>

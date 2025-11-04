@@ -69,7 +69,7 @@ export default function ExperienceSection() {
               textShadow: '0 0 30px rgba(255, 255, 255, 0.3)'
             }}
           >
-            Experience
+            Test Experience
           </h2>
         </div>
 
@@ -105,7 +105,7 @@ export default function ExperienceSection() {
                         className="text-lg font-semibold mb-2"
                         style={{ color: '#00cfff' }}
                       >
-                        Mar 2022 - Dec 2022
+                        Test Date Range One
                       </div>
                     </div>
                   </div>
@@ -125,7 +125,7 @@ export default function ExperienceSection() {
                         className="text-lg font-semibold mb-2"
                         style={{ color: '#a259ff' }}
                       >
-                        Feb 2023 - Present
+                        Test Date Range Two
                       </div>
                     </div>
                   </div>
@@ -148,19 +148,19 @@ export default function ExperienceSection() {
                          before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-r before:from-purple-600/10 before:to-blue-600/10 before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100">
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-2 text-purple-200 group-hover:text-purple-100 transition-colors duration-300">
-                  Vertobase Co., Ltd.
+                  Test Company One
                 </h3>
                 <p className="text-lg mb-4 font-medium text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                  Role: Front-end Developer
+                  Role: Test Developer
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
                     <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-purple-400"></span>
-                    <span>Write code front-end from design use React and NextJS</span>
+                    <span>Test responsibility one</span>
                   </li>
                   <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
                     <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-purple-400"></span>
-                    <span>Write code Flutter from design detail write process pin login mobile and view page other</span>
+                    <span>Test responsibility two</span>
                   </li>
                 </ul>
               </div>
@@ -179,55 +179,23 @@ export default function ExperienceSection() {
                          before:absolute before:inset-0 before:rounded-2xl before:bg-gradient-to-r before:from-blue-600/10 before:to-purple-600/10 before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100">
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-2 text-blue-200 group-hover:text-blue-100 transition-colors duration-300">
-                  iApp Technology
+                  Test Company Two
                 </h3>
                 <p className="text-lg mb-4 font-medium text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                  Role: Full Stack Developer
+                  Role: Test Full Stack Developer
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
                     <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Created an API for sending data using JavaScript, PostgreSQL, and Express, leveraging backend development skills in JavaScript, SQL, and Express.js.</span>
+                    <span>Test responsibility one for company two</span>
                   </li>
                   <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
                     <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Developed an API for fetching data from the web using JavaScript, PostgreSQL, Puppeteer and Express, utilizing knowledge of RESTful API design and SQL queries.</span>
+                    <span>Test responsibility two for company two</span>
                   </li>
                   <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
                     <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Built an API for retrieving data from the Kibana database, integrating database management and data analytics tools.</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Edited the API to send data to the homepage using React, JavaScript, PostgreSQL, and Express, combining frontend-backend integration with ReactJS and SQL.</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Created a process to run commands in Jenkins for data extraction using Jenkins and Docker, applying CI/CD automation practices.</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Edited the web front-end view for MA and fixed bugs using React, Next.js, JavaScript, and TypeScript, with UI improvements via NextUI, TailwindCSS, and Bootstrap.</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Migrated Flutter code from mobile to web using Next.js and TypeScript, enhancing cross-platform development experience.</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Wrote unit tests for the API and applied clean code principles using Jest, Postman, and Git version control.</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Built the application as an Electron app for macOS and Windows, expanding deployment knowledge across desktop platforms.</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Designed a data extraction flow using draw.io (Diagrams.net)</span>
-                  </li>
-                  <li className="flex items-start text-slate-300 group-hover:text-slate-200 transition-colors duration-300">
-                    <span className="mr-2 mt-2 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-blue-400"></span>
-                    <span>Wrote Python logic for checking MA, integrating Python scripting with backend processes.</span>
+                    <span>Test responsibility three for company two</span>
                   </li>
                 </ul>
               </div>

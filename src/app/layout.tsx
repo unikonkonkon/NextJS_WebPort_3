@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio FaradayBanana V2",
-  description: "Portfolio by Suthep Jantawee",
+  title: "Test Portfolio",
+  description: "Test Portfolio Description",
 };
 
 export default function RootLayout({
