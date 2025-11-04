@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import { Menu, X, Rocket, Code, Briefcase, Mail, Star } from 'lucide-react'
 import { BlurFade } from '@/components/magicui/blur-fade'
 import Image from 'next/image'
@@ -9,13 +9,13 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   // Navigation items
-  const navItems = [
+  const navItems = useMemo(() => [
     { id: 'hero', label: 'Home', icon: Rocket },
     { id: 'skills', label: 'Skills', icon: Star },
     { id: 'experience', label: 'Experience', icon: Briefcase },
     { id: 'projects', label: 'Projects', icon: Code },
     { id: 'contact', label: 'Contact', icon: Mail },
-  ];
+  ], []);
 
   // Smooth scroll to section
   const scrollToSection = (sectionId: string) => {
@@ -50,7 +50,7 @@ const Navbar = () => {
     handleScroll(); // Call once to set initial state
     
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [navItems]);
 
   return (
     <BlurFade delay={0.1}>
