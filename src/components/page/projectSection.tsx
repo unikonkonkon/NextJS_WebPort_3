@@ -122,9 +122,9 @@ const ProjectSection = () => {
         "https://picsum.photos/200/300",
       ],
       technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
-      githubUrlFrontend: "https://github.com/unikonkon/FrontEnd_useNestJS_CryptoSentimentAnalysis",
-      githubUrlBackend: "https://github.com/unikonkon/BackEnd_NestJS_CryptoSentimentAnalysis",
-      demoUrl: "https://crypto-sentiment-analysis-ten.vercel.app/",
+      githubUrlFrontend: "https://github.com/test/test-frontend",
+      githubUrlBackend: "https://github.com/test/test-backend",
+      demoUrl: "https://example.com",
       featured: true,
       colorScheme: "orangeLight" as const
     },
@@ -142,8 +142,8 @@ const ProjectSection = () => {
         "https://picsum.photos/200/300",
       ],
       technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
-      githubUrl: "https://github.com/unikonkon/NextJS_Crypto_News_Aggregator",
-      demoUrl: "https://crypto-news-aggregator-alpha.vercel.app/",
+      githubUrl: "https://github.com/test/test-project",
+      demoUrl: "https://example.com",
       featured: true,
       colorScheme: "orange" as const
     },
@@ -161,8 +161,8 @@ const ProjectSection = () => {
         "https://picsum.photos/200/300",
       ],
       technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
-      githubUrl: "https://github.com/unikonkon/React_WebRecord",
-      demoUrl: "https://voice-record-phi.vercel.app/",
+      githubUrl: "https://github.com/test/test-project",
+      demoUrl: "https://example.com",
       featured: true,
       colorScheme: "blue" as const
     },
@@ -172,8 +172,8 @@ const ProjectSection = () => {
       description: "Test project description four for testing purposes.",
       image: "https://picsum.photos/200/300",
       technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
-      githubUrl: "https://github.com/unikonkon/NextJS_CryptoTracker",
-      demoUrl: "https://crypto-tracker-drab-eta.vercel.app/",
+      githubUrl: "https://github.com/test/test-project",
+      demoUrl: "https://example.com",
       colorScheme: "yellow" as const
     },
     {
@@ -182,8 +182,8 @@ const ProjectSection = () => {
       description: "Test project description five for testing purposes.",
       image: "https://picsum.photos/200/300",
       technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
-      githubUrl: "https://github.com/unikonkon/NextJS_Netflix_App",
-      demoUrl: "https://next-js-netflix-app-5egp.vercel.app/",
+      githubUrl: "https://github.com/test/test-project",
+      demoUrl: "https://example.com",
       colorScheme: "red" as const
     },
     {
@@ -192,8 +192,8 @@ const ProjectSection = () => {
       description: "Test project description six for testing purposes.",
       image: "https://picsum.photos/200/300",
       technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
-      githubUrl: "https://github.com/unikonkon/NextJS_Text-to-Speech-App",
-      demoUrl: "https://text-to-speech-app-kappa.vercel.app/",
+      githubUrl: "https://github.com/test/test-project",
+      demoUrl: "https://example.com",
       colorScheme: "green" as const
     },
     {
@@ -202,7 +202,7 @@ const ProjectSection = () => {
       description: "Test project description seven for testing purposes.",
       image: "https://picsum.photos/200/300",
       technologies: ["Test Tech One", "Test Tech Two", "Test Tech Three"],
-      githubUrl: "https://github.com/unikonkon/NextJS_Text-to-Speech-for-PyThaiTTS",
+      githubUrl: "https://github.com/test/test-project",
       colorScheme: "purple" as const
     },
     {
@@ -211,8 +211,8 @@ const ProjectSection = () => {
       description: "Test project description eight for testing purposes.",
       image: "https://picsum.photos/200/300",
       technologies: ["Next.js", "TypeScript", "TailwindCSS", "Three.js"],
-      githubUrl: "https://github.com/unikonkon/NextJs_WebProtfolio",
-      demoUrl: "https://faradaybanana.vercel.app/",
+      githubUrl: "https://github.com/test/test-project",
+      demoUrl: "https://example.com",
       colorScheme: "indigo" as const
     }
   ];
@@ -244,7 +244,7 @@ const ProjectSection = () => {
       ],
       icon: "🚀",
       colorScheme: "purple" as const,
-      demoUrl: "https://actai.co/"
+      demoUrl: "https://example.com"
     },
     {
       title: "Test Work Project Three",

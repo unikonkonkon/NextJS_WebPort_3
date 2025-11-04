@@ -76,19 +76,19 @@ const ContactSection = () => {
     {
       icon: Github,
       label: 'GitHub',
-      link: 'https://github.com/unikonkon',
+      link: '#',
       color: 'hover:text-purple-400'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/suthep-jantawee/',
+      link: '#',
       color: 'hover:text-blue-400'
     },
     {
       icon: Youtube,
       label: 'Youtube',
-      link: 'https://www.youtube.com/@faradaybanana',
+      link: '#',
       color: 'hover:text-cyan-400'
     }
   ];

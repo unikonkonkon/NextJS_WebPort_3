@@ -20,8 +20,8 @@ const HeroSection = () => {
     // Download Resume function
     const downloadResume = () => {
         const link = document.createElement('a');
-        link.href = '/Resume Sutep Jantawee.pdf';
-        link.download = 'Resume_Sutep_Jantawee.pdf';
+        link.href = '/test-resume.pdf';
+        link.download = 'test-resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -100,7 +100,7 @@ const HeroSection = () => {
                     </TextAnimate>
 
                     <div className="flex md:hidden my-4 w-full justify-start gap-4">
-                        <ShinyButton onClick={() => window.open('https://github.com/unikonkon', '_blank')}>
+                        <ShinyButton onClick={() => window.open('#', '_blank')}>
                             <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                                 GitHub
                             </span>
@@ -172,7 +172,7 @@ const HeroSection = () => {
 
                 </NeonGradientCard>
                 <div className="hidden md:flex mt-4 w-full justify-start gap-4">
-                    <ShinyButton onClick={() => window.open('https://github.com/unikonkon', '_blank')}>
+                    <ShinyButton onClick={() => window.open('#', '_blank')}>
                         <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                             GitHub
                         </span>

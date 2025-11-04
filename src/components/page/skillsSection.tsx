@@ -51,8 +51,9 @@ const slugs: string[] = [
 ];
 
 // Map slugs to image URLs (e.g., from simple-icons CDN)
+// Using placeholder images for testing
 const iconUrls = slugs.map(
-    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
+    (slug) => `https://picsum.photos/200/300?random=${slug}`,
 );
 
 const SkillsSection = () => {
